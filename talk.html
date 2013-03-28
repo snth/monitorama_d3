@@ -122,7 +122,7 @@ d3.select('svg')
                 <pre><code>
 ws.onmessage = function(evt){
     data = JSON.parse(evt.data); 
-    circles = app_circles(data); 
+    circles = append_circles(data); 
     draw(circles);
 }
 
